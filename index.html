@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Financial Calculators</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Financial Calculators</h1>
+
+  <section id="future-value">
+    <h2>Future Value Calculator</h2>
+    <label>Current Value: <input type="number" id="fv-current" /></label>
+    <label>Years: <input type="number" id="fv-years" /></label>
+    <label>Inflation Rate (%): <input type="number" id="fv-inflation" /></label>
+    <button onclick="calculateFutureValue()">Calculate</button>
+    <p>Future Value: ₹<span id="fv-result"></span></p>
+  </section>
+
+  <!-- Repeat similar blocks for the other calculators -->
+
+  <script src="script.js"></script>
+</body>
+</html>
